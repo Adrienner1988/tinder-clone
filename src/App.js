@@ -1,5 +1,7 @@
+
 import "./App.css";
 import Header from "./Header";
+import TinderCards from "./TinderCards";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -10,7 +12,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/chat" />
-          <Route path="/" />
+          <Route path="/" element={<TinderCards />} />
         </Routes>
 
         {/* Cards */}
