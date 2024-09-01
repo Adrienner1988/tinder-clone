@@ -1,16 +1,23 @@
-import './App.css';
-import Header from './Header';
+import "./App.css";
+import Header from "./Header";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-     <h1>Tinder Clone App</h1>
-     {/* Header */}
-     <Header />
-     {/* Cards */}
-     {/* Buttons at bottom */}
-     {/* Chat Screen */}
-     {/* Individual chat screen */}
+      {/* Header */}
+      <Header />
+      <Router>
+        <Routes>
+          <Route path="/chat" />
+          <Route path="/" />
+        </Routes>
+
+        {/* Cards */}
+        {/* Buttons at bottom */}
+        {/* Chat Screen */}
+        {/* Individual chat screen */}
+      </Router>
     </div>
   );
 }
