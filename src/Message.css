@@ -1,0 +1,24 @@
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    height: 70px;
+    border-bottom: 1px solid #fafafa;
+}
+
+.message__detail {
+    flex: 1;
+}
+
+.message__detail p {
+    color: gray;
+}
+
+.message__image {
+    margin-right: 20px;
+}
+
+.message__timeStamp {
+    color: lightgrey;
+}
