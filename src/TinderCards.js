@@ -7,16 +7,17 @@ import { collection, onSnapshot } from "firebase/firestore";
 const TinderCards = () => {
   const [people, setPeople] = useState([]);
 
-//   Pulling people from firebase
+  //   Pulling people from firebase
   useEffect(() => {
     const getCollection = collection(database, "people");
     const unsubscribe = onSnapshot(getCollection, (snapshot) =>
       setPeople(snapshot.docs.map((doc) => doc.data()))
     );
+    // The clean up
     return () => unsubscribe();
   }, []);
 
-//   Swiping function
+  //   Swiping function
   const handleSwipe = (direction, name) => {
     if (direction === "left") {
       console.log(`Removing: ${name}`);
@@ -27,6 +28,7 @@ const TinderCards = () => {
 
   return (
     <>
+      {/* Card */}
       <div className="card__container">
         {people.map((person) => (
           <TinderCard
