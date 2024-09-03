@@ -19,7 +19,7 @@
 .card__container {
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 
 .swipe {

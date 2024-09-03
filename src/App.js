@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
+          {/* Private message*/}
           <Route
             path="/chat/:person"
             element={
@@ -22,7 +23,7 @@ function App() {
             }
           />
 
-          {/* Message page with back button */}
+          {/* Message page with back button passed as prop */}
           <Route
             path="/chat"
             element={
@@ -44,10 +45,6 @@ function App() {
             }
           />
         </Routes>
-
-        {/* Chat Screen */}
-
-        {/* Individual chat screen */}
       </Router>
     </div>
   );
