@@ -14,7 +14,7 @@ function App() {
         <Routes>
           {/* Private message*/}
           <Route
-            path="/chat/:person"
+            path="/chat/:name"
             element={
               <>
                 <Header backButton="/chat" />
