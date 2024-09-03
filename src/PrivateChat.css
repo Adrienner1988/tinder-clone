@@ -1,0 +1,50 @@
+.privateChat__message {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.privateChat__timestamp {
+    text-align: center;
+    padding: 20px;
+    color: gray;
+}
+
+.privateChat__text {
+    margin-left: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+.privateChat__messageUser {
+    margin-left: auto;
+    background-color: #29b3cd;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+.privateChat__input {
+    display: flex;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid lightgray;
+}
+
+.privateChat__inputField {
+    flex: 1;
+    border: none;
+}
+
+.inputButton {
+    border: none;
+    margin: 20px;
+    background-color: white;
+    font-weight: bold;
+    color: #fe3d71;
+}
