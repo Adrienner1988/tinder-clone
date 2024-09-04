@@ -83,6 +83,7 @@ This project represents a personal achievement in my coding journey. It has allo
 
 ## Contact
 - Email: `adriennerdaniels@gmail.com`
+- LinkedIn: `https://www.linkedin.com/in/adriennerdaniels/`
 - GitHub: `Adrienner1988`
 
 ## License
