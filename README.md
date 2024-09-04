@@ -41,7 +41,7 @@ You can access the live version of the application here: [Live Demo](https://ad-
 
 ### Cloning the Repository (Optional)
 If you still want to clone the repository and explore the code:
-1. Clone the repository: ``` bash `git clone https://github.com/Adrienner1988/tinder-clone.git`
+1. Clone the repository: `git clone https://github.com/Adrienner1988/tinder-clone.git`
 2. Navigate to the project directory: `cd tinder-clone`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
