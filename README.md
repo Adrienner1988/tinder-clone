@@ -81,5 +81,9 @@ The application is complete and functional as a Tinder clone. I plan to continue
 ## Why
 This project represents a personal achievement in my coding journey. It has allowed me to apply my skills and learn new concepts, boosting my confidence as a developer. I am excited to keep enhancing this application and explore more features as I grow in my programming abilities.
 
+## Contact
+- Email: `adriennerdaniels@gmail.com`
+- GitHub: `Adrienner1988`
+
 ## License
 This project is currently not licensed.
