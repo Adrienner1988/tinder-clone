@@ -1,6 +1,6 @@
 # Tinder Clone
 
-![Project Screenshot](src/images/Tinder_Screenshot.png)
+![Project Screenshot](src/Images/Tinder_Screenshot.png)
 
 ## Table of Contents
 - [About](#about)
@@ -18,7 +18,7 @@
 This application is a clone of the popular dating app, Tinder. It allows users to swipe through profiles of other users, either left to pass or right to like. Two users can start a conversation if they like each other's profiles. The app also features a chat section where users can view their matches and send direct messages (DMs) to each other, just like in the original Tinder app.
 
 ## Video
-![Watch the demo](https://drive.google.com/file/d/1Old6zujdjfpkcWHtjjgueDkkAJuIDkqy/view)
+![Watch the demo](https://drive.google.com/file/d/1Old6zujdjfpkcWHtjjgueDkkAJuIDkqy/view?usp=drive_link)
 
 ## Tech
 A list of the technologies and tools used in the project:
