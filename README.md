@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Tinder Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Screenshot](src/images/Tinder_Screenshot.png)
 
-## Available Scripts
+## Table of Contents
+- [About](#about)
+- [Video](#video)
+- [Tech](#tech)
+- [Getting Started](#getting-started)
+- [Code Examples](#code-examples)
+- [Features](#features)
+- [Status](#status)
+- [Why?](#why)
+- [Contact](#contact)
+- [License](#license)
 
-In the project directory, you can run:
+## About
+This application is a clone of the popular dating app, Tinder. It allows users to swipe through profiles of other users, either left to pass or right to like. Two users can start a conversation if they like each other's profiles. The app also features a chat section where users can view their matches and send direct messages (DMs) to each other, just like in the original Tinder app.
 
-### `npm start`
+## Video
+![Watch the demo](src/images/TinderClone-Demo.mp4)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech
+A list of the technologies and tools used in the project:
+- React
+- Firebase
+- Netlify
+- JavaScript ES6
+- HTML5/CSS3
+- React Router
+- Material UI
+- Google Fonts
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
+- A web browser
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Usage
+You can access the live version of the application here: [Live Demo](https://ad-tinder-clone.netlify.app/)
 
-### `npm run build`
+### Cloning the Repository (Optional)
+If you still want to clone the repository and explore the code:
+1. Clone the repository: ``` bash `git clone https://github.com/Adrienner1988/tinder-clone.git`
+2. Navigate to the project directory: `cd tinder-clone`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Code Examples
+```javascript
+export const Message = ({ name, message, timeStamp, profilePic }) => {
+  return (
+    <>
+    <Link to={`/chat/${name}`}>
+      <div className="message">
+        <Avatar className="message__image" alt={name} src={profilePic} />
+        <div className="message__detail">
+          <h2>{name}</h2>
+          <p>{message}</p>
+        </div>
+        <p className="message__timeStamp">{timeStamp}</p>
+      </div>
+    </Link>
+    </>
+  );
+};
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+export default Message;
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
+- Swipe through user profiles.
+- Send direct messages.
+- View and navigate to chat conversations.
+- Responsive design for mobile and desktop views.
+- User-friendly interface.
 
-### `npm run eject`
+## Status
+The application is complete and functional as a Tinder clone. I plan to continue building on this project by adding new features and enhancements in the future.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Why
+This project represents a personal achievement in my coding journey. It has allowed me to apply my skills and learn new concepts, boosting my confidence as a developer. I am excited to keep enhancing this application and explore more features as I grow in my programming abilities.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is currently not licensed.
